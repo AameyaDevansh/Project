@@ -56,7 +56,7 @@ The client will run on [http://localhost:3000](http://localhost:3000) by default
 
 ## 🌐 Demo
 
-- **Live URL:** project-gamma-ruby.vercel.app
+- **Live URL:** https://project-gamma-ruby.vercel.app
 - **GitHub Repo:** https://github.com/AameyaDevansh
 
 
