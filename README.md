@@ -28,8 +28,8 @@ A collaborative Teams ToDo app where users can create, assign, and manage tasks 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
+git clone https://github.com/AameyaDevansh/Project.git
+cd Project
 ```
 
 ### 2. Setup the server
