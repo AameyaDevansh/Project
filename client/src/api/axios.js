@@ -1,8 +1,9 @@
 import axios from 'axios';
 import store from '../app/store';
 
+// Use REACT_APP_API_BASE_URL from .env, fallback to '/api' for local dev
 const api = axios.create({
-  baseURL: '/api',   // proxy makes this => http://localhost:5001/api
+  baseURL: process.env.REACT_APP_API_BASE_URL || '/api', // Set REACT_APP_API_BASE_URL in .env for deployment
 });
 
 api.interceptors.request.use((config) => {
