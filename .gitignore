@@ -1,0 +1,16 @@
+# .gitignore (root)
+# Node
+client/node_modules/
+server/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env / secrets
+*.env
+.env*
+
+# OS / IDE cruft
+.DS_Store
+.idea/
+.vscode/
